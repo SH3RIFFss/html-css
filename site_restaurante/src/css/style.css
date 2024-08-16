@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* all */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+/* header */
+header{
+    background-color: brown;
+}
+#container_btn_header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+}
+#btn_delivery{
+    padding: 5px;
+    cursor: pointer;
+}
+#btn_login{
+    padding: 5px;
+    cursor: pointer;
+}
+/* main */
+main{
+    background-color: aliceblue;
+}
+/* footer */
+footer{
+    background-color: aliceblue;
+}
